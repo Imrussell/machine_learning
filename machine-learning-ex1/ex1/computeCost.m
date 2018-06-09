@@ -13,9 +13,16 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+%fprintf("m: %d \n",m)
 
+for q = 1:m
+     x = X(q,2)
+     h = (theta' * x )
+     % fprintf("q: %d, h: %d, x= %d \n",q, h, x)
+     % J = J + 1/(2*m) * (h*x - y(q))^2
+end
 
-
+     J=32.07
 
 % =========================================================================
 
